@@ -2,6 +2,10 @@ const express= require("express");
 
 const app = express();
 
+app.get("/", function (req,resp){
+    resp.send("Pagina inicial")
+});
+
 app.get("/contato", function (req,resp){
     resp.send("Pagina de contato do meu app")
 });
