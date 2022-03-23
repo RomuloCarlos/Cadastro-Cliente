@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<lang="pt-br"></lang>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cliente</title>
+</head>
+<input>
+    <h1>Cadastro de Cliente</h1>
+    <form action ="/cadastro/usuario/salvar" method="POST">
+    <label>Nome:</label>
+    <input name="nome" type="text"/><br/>
+    <label>Senha:</label>
+    <input name="senha" type="password"/><br/>
+    <input type="submit" value="cadastro" />
+</form>
+<% if(mensagem) {% 
+<p>
+    <label style="color:Red"><%=mensagem %> </label>
+</p>
+<%}%>
+
+</body>
+</html>

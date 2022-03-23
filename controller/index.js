@@ -2,8 +2,8 @@ const express= require("express");
 
 const app = express();
 
-app.get("/", function (req,resp){
-    resp.send("Pagina inicial")
+app.get("/CadastroUsuario", function (req,resp){
+    src
 });
 
 
@@ -12,7 +12,7 @@ app.get("/contato", function (req,resp){
 });
 
 app.get("/produto", function (req,resp){
-    resp.send("Pagina de contato do meu produto")
+    resp.send("Pagina de contato do meu produlto")
 });
 
 app.get("/dados/:nome/:cargo", function (req,resp){
